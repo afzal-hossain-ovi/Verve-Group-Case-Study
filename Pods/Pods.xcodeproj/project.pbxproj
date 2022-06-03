@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+			productName = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		110B98B5E7B93F97F2E590D5203C4878 /* Pods-Verve Group (Case Study)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 566522461BD1E1F6197F5F650167A414 /* Pods-Verve Group (Case Study)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF5541A1796C0EBA7AC916D093A8F21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		27059C4528DABC05993638D805B5A894 /* Pods-Verve Group (Case Study)Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD7FE9E4B7114E82070463CEC2EF94B /* Pods-Verve Group (Case Study)Tests-dummy.m */; };
+		27468A2A4A0B92CC5066D3F8EBAB3BF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3E1943E764A568D6AB07503142449939 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3DE50D1028D518E1A6B650FAECADE0 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF5D090EB765D5B77F20A71F16550AB /* Pods-Verve Group (Case Study)Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3405DF204D36BBF07191983BB8549164 /* Pods-Verve Group (Case Study)Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		923B530A8EEF8AC7412EAC5159902CC9 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 866C1FCAADCCD33C04FF964084671EFB /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-dummy.m */; };
+		A63B0D1D4ADCCFDFCF52BAD50E2BB638 /* Pods-Verve Group (Case Study)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9442440DDC57C34835C4014EC02C86 /* Pods-Verve Group (Case Study)-dummy.m */; };
+		CFA74310BA0A19F6149C122FB458E3DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AC9A93D87BFFA2CC12A523670CFD12B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		71074CBE9AA2A4A21B40601DEB9913CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		EA1668B2DB46418F32855E380F8A0D7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 362D070E930E81848A20F08D4459AE8A;
+			remoteInfo = "Pods-Verve Group (Case Study)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1034A274056C0BF1E3A94624FF97546F /* Pods_Verve_Group__Case_Study_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verve_Group__Case_Study_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E5F922851D6CBDB79705F27C578881 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3405DF204D36BBF07191983BB8549164 /* Pods-Verve Group (Case Study)Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Verve Group (Case Study)Tests-umbrella.h"; sourceTree = "<group>"; };
+		35E6F2ECA0AF500B0EDD9C87044EA045 /* Pods-Verve Group (Case Study)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Verve Group (Case Study)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3A3AC48D856D2426B1C069CBF76CE0A9 /* Pods-Verve Group (Case Study)Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Verve Group (Case Study)Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		3FA8C63A77E1278C371330D056422876 /* Pods-Verve Group (Case Study)Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Verve Group (Case Study)Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		566522461BD1E1F6197F5F650167A414 /* Pods-Verve Group (Case Study)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Verve Group (Case Study)-umbrella.h"; sourceTree = "<group>"; };
+		5F4871294DE4ED3598A971A42463D857 /* Pods-Verve Group (Case Study)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Verve Group (Case Study)-Info.plist"; sourceTree = "<group>"; };
+		6FB52A6F89B7F3E2ECE447FB6393B41D /* Pods-Verve Group (Case Study)Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Verve Group (Case Study)Tests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		83D836EFAAC6805BDAB86247221F26FF /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.modulemap"; sourceTree = "<group>"; };
+		866C1FCAADCCD33C04FF964084671EFB /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-dummy.m"; sourceTree = "<group>"; };
+		8DD7FE9E4B7114E82070463CEC2EF94B /* Pods-Verve Group (Case Study)Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Verve Group (Case Study)Tests-dummy.m"; sourceTree = "<group>"; };
+		8F9442440DDC57C34835C4014EC02C86 /* Pods-Verve Group (Case Study)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Verve Group (Case Study)-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5E5BF7C0B953A51DBCD4BD7A34FC036 /* Pods-Verve Group (Case Study).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Verve Group (Case Study).release.xcconfig"; sourceTree = "<group>"; };
+		AA04109995CA69E8256870B5371B5F54 /* Pods_Verve_Group__Case_Study_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verve_Group__Case_Study_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3DE50D1028D518E1A6B650FAECADE0 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-umbrella.h"; sourceTree = "<group>"; };
+		B009CAD101C52FE1EAAC47D5C4D03225 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-Info.plist"; sourceTree = "<group>"; };
+		B0A43971B75CC24910D3F9246FDC2770 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		B24F12A382B340EF1674FF9ADDD7C5F5 /* Pods-Verve Group (Case Study)Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Verve Group (Case Study)Tests-Info.plist"; sourceTree = "<group>"; };
+		BF2B7B61E7E848E23138388C910A62E9 /* Pods-Verve Group (Case Study)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Verve Group (Case Study)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C352D5792B0388DCC658E54B19860E65 /* Pods-Verve Group (Case Study)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Verve Group (Case Study)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEE2C0DEE038A67900AA69412D1FB3EA /* Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE453C6EE177F4FDB69811E55260A1C6 /* Pods-Verve Group (Case Study).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Verve Group (Case Study).modulemap"; sourceTree = "<group>"; };
+		F1992E339D7BAB2AD6AC49E09926DE3C /* Pods-Verve Group (Case Study).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Verve Group (Case Study).debug.xcconfig"; sourceTree = "<group>"; };
+		F5ED491E004D6BC67336DCBC3BBCBB7E /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA9F158A5C6315ADE0E443F154764FFC /* Pods-Verve Group (Case Study)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Verve Group (Case Study)-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB50E1E97EF98EA6AD3A1D9A7984544C /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09DAD0F1B661AB05E7E106A5DACF72A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF5541A1796C0EBA7AC916D093A8F21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2817B6AE2F1AEEFAACADD53ACB2A61D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA74310BA0A19F6149C122FB458E3DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EEECFC5FBE38EC7DEE42EDD1F822603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27468A2A4A0B92CC5066D3F8EBAB3BF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22AB12A6E3479F406E06218046C1578A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4C6E7E2059FF229B4E759B6B0D8AE2A /* Pods-Verve Group (Case Study) */,
+				4B9A0CB0903028B3A8A58072D49FB7FC /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests */,
+				22BCA27BB2E5FA58C0E5A8F0A654EEED /* Pods-Verve Group (Case Study)Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		22BCA27BB2E5FA58C0E5A8F0A654EEED /* Pods-Verve Group (Case Study)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6FB52A6F89B7F3E2ECE447FB6393B41D /* Pods-Verve Group (Case Study)Tests.modulemap */,
+				3FA8C63A77E1278C371330D056422876 /* Pods-Verve Group (Case Study)Tests-acknowledgements.markdown */,
+				3A3AC48D856D2426B1C069CBF76CE0A9 /* Pods-Verve Group (Case Study)Tests-acknowledgements.plist */,
+				8DD7FE9E4B7114E82070463CEC2EF94B /* Pods-Verve Group (Case Study)Tests-dummy.m */,
+				B24F12A382B340EF1674FF9ADDD7C5F5 /* Pods-Verve Group (Case Study)Tests-Info.plist */,
+				3405DF204D36BBF07191983BB8549164 /* Pods-Verve Group (Case Study)Tests-umbrella.h */,
+				C352D5792B0388DCC658E54B19860E65 /* Pods-Verve Group (Case Study)Tests.debug.xcconfig */,
+				35E6F2ECA0AF500B0EDD9C87044EA045 /* Pods-Verve Group (Case Study)Tests.release.xcconfig */,
+			);
+			name = "Pods-Verve Group (Case Study)Tests";
+			path = "Target Support Files/Pods-Verve Group (Case Study)Tests";
+			sourceTree = "<group>";
+		};
+		4B9A0CB0903028B3A8A58072D49FB7FC /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				83D836EFAAC6805BDAB86247221F26FF /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.modulemap */,
+				31E5F922851D6CBDB79705F27C578881 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-acknowledgements.markdown */,
+				F5ED491E004D6BC67336DCBC3BBCBB7E /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-acknowledgements.plist */,
+				866C1FCAADCCD33C04FF964084671EFB /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-dummy.m */,
+				B009CAD101C52FE1EAAC47D5C4D03225 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-Info.plist */,
+				AA3DE50D1028D518E1A6B650FAECADE0 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-umbrella.h */,
+				FB50E1E97EF98EA6AD3A1D9A7984544C /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.debug.xcconfig */,
+				B0A43971B75CC24910D3F9246FDC2770 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.release.xcconfig */,
+			);
+			name = "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests";
+			path = "Target Support Files/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
+				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				D809D3037A922CCDC21456EC4B276A0C /* Products */,
+				22AB12A6E3479F406E06218046C1578A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4C6E7E2059FF229B4E759B6B0D8AE2A /* Pods-Verve Group (Case Study) */ = {
+			isa = PBXGroup;
+			children = (
+				EE453C6EE177F4FDB69811E55260A1C6 /* Pods-Verve Group (Case Study).modulemap */,
+				BF2B7B61E7E848E23138388C910A62E9 /* Pods-Verve Group (Case Study)-acknowledgements.markdown */,
+				FA9F158A5C6315ADE0E443F154764FFC /* Pods-Verve Group (Case Study)-acknowledgements.plist */,
+				8F9442440DDC57C34835C4014EC02C86 /* Pods-Verve Group (Case Study)-dummy.m */,
+				5F4871294DE4ED3598A971A42463D857 /* Pods-Verve Group (Case Study)-Info.plist */,
+				566522461BD1E1F6197F5F650167A414 /* Pods-Verve Group (Case Study)-umbrella.h */,
+				F1992E339D7BAB2AD6AC49E09926DE3C /* Pods-Verve Group (Case Study).debug.xcconfig */,
+				A5E5BF7C0B953A51DBCD4BD7A34FC036 /* Pods-Verve Group (Case Study).release.xcconfig */,
+			);
+			name = "Pods-Verve Group (Case Study)";
+			path = "Target Support Files/Pods-Verve Group (Case Study)";
+			sourceTree = "<group>";
+		};
+		D809D3037A922CCDC21456EC4B276A0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA04109995CA69E8256870B5371B5F54 /* Pods_Verve_Group__Case_Study_.framework */,
+				CEE2C0DEE038A67900AA69412D1FB3EA /* Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests.framework */,
+				1034A274056C0BF1E3A94624FF97546F /* Pods_Verve_Group__Case_Study_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+			);
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6AFB47319CA120D3B988150B0B6F79FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110B98B5E7B93F97F2E590D5203C4878 /* Pods-Verve Group (Case Study)-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7990174CB0582B36872C69F9BCF29C72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF5D090EB765D5B77F20A71F16550AB /* Pods-Verve Group (Case Study)Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2CCAF8A917DB171CAD96E1F1BE141A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1943E764A568D6AB07503142449939 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		347F068AC16529E8253D4C85D03E8D3E /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E85D17F892D81D693C49922816FA4381 /* Build configuration list for PBXNativeTarget "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests" */;
+			buildPhases = (
+				AC2CCAF8A917DB171CAD96E1F1BE141A /* Headers */,
+				75212C7C769F26B8B0621565F1F38CF7 /* Sources */,
+				2817B6AE2F1AEEFAACADD53ACB2A61D2 /* Frameworks */,
+				F65C1F12451AED906DFFB6C758F3AC97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				427F69F76C66DB61A2F4BFE10BBCB2C7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests";
+			productName = Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests;
+			productReference = CEE2C0DEE038A67900AA69412D1FB3EA /* Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		362D070E930E81848A20F08D4459AE8A /* Pods-Verve Group (Case Study) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0350781773FF9FC07A08031E21A1D7D5 /* Build configuration list for PBXNativeTarget "Pods-Verve Group (Case Study)" */;
+			buildPhases = (
+				6AFB47319CA120D3B988150B0B6F79FE /* Headers */,
+				69D46200D02DD5105B07BBF908D74855 /* Sources */,
+				7EEECFC5FBE38EC7DEE42EDD1F822603 /* Frameworks */,
+				E5904D8532ED8343F1914F9D4006EBEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC958540646A4B4E7A6DC6CC3977F7D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Verve Group (Case Study)";
+			productName = Pods_Verve_Group__Case_Study_;
+			productReference = AA04109995CA69E8256870B5371B5F54 /* Pods_Verve_Group__Case_Study_.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CCA0C9A862AD70D9E90E33F7B5EC3464 /* Pods-Verve Group (Case Study)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC465E021E7EDC2F20F3CEA20D64DFEE /* Build configuration list for PBXNativeTarget "Pods-Verve Group (Case Study)Tests" */;
+			buildPhases = (
+				7990174CB0582B36872C69F9BCF29C72 /* Headers */,
+				4CDE98AD44DC080B203DAFCBB6585F05 /* Sources */,
+				09DAD0F1B661AB05E7E106A5DACF72A7 /* Frameworks */,
+				0C4348A7D8E8C1B334F3BDAA1D29149B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				260985501D5DA08697DEE4F642A9167C /* PBXTargetDependency */,
+			);
+			name = "Pods-Verve Group (Case Study)Tests";
+			productName = Pods_Verve_Group__Case_Study_Tests;
+			productReference = 1034A274056C0BF1E3A94624FF97546F /* Pods_Verve_Group__Case_Study_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D809D3037A922CCDC21456EC4B276A0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				362D070E930E81848A20F08D4459AE8A /* Pods-Verve Group (Case Study) */,
+				347F068AC16529E8253D4C85D03E8D3E /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests */,
+				CCA0C9A862AD70D9E90E33F7B5EC3464 /* Pods-Verve Group (Case Study)Tests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C4348A7D8E8C1B334F3BDAA1D29149B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5904D8532ED8343F1914F9D4006EBEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65C1F12451AED906DFFB6C758F3AC97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CDE98AD44DC080B203DAFCBB6585F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27059C4528DABC05993638D805B5A894 /* Pods-Verve Group (Case Study)Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D46200D02DD5105B07BBF908D74855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63B0D1D4ADCCFDFCF52BAD50E2BB638 /* Pods-Verve Group (Case Study)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75212C7C769F26B8B0621565F1F38CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923B530A8EEF8AC7412EAC5159902CC9 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		260985501D5DA08697DEE4F642A9167C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Verve Group (Case Study)";
+			target = 362D070E930E81848A20F08D4459AE8A /* Pods-Verve Group (Case Study) */;
+			targetProxy = EA1668B2DB46418F32855E380F8A0D7F /* PBXContainerItemProxy */;
+		};
+		427F69F76C66DB61A2F4BFE10BBCB2C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 71074CBE9AA2A4A21B40601DEB9913CC /* PBXContainerItemProxy */;
+		};
+		AC958540646A4B4E7A6DC6CC3977F7D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 1AC9A93D87BFFA2CC12A523670CFD12B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1CFF994AF239C05BCC6550D97799E458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E5BF7C0B953A51DBCD4BD7A34FC036 /* Pods-Verve Group (Case Study).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Verve Group (Case Study)/Pods-Verve Group (Case Study)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Verve Group (Case Study)/Pods-Verve Group (Case Study).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FE3E6E83243B2CFF1AD783446AED44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB50E1E97EF98EA6AD3A1D9A7984544C /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6526287FF61F8635736821A215E5A1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1992E339D7BAB2AD6AC49E09926DE3C /* Pods-Verve Group (Case Study).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Verve Group (Case Study)/Pods-Verve Group (Case Study)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Verve Group (Case Study)/Pods-Verve Group (Case Study).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF1EDF561C667240C241CBC9E7FA3A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0A43971B75CC24910D3F9246FDC2770 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE634C01E2C3CC2CB4ADF775AF83EC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C352D5792B0388DCC658E54B19860E65 /* Pods-Verve Group (Case Study)Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Verve Group (Case Study)Tests/Pods-Verve Group (Case Study)Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Verve Group (Case Study)Tests/Pods-Verve Group (Case Study)Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6145564EB5A6543944760218E63A42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E6F2ECA0AF500B0EDD9C87044EA045 /* Pods-Verve Group (Case Study)Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Verve Group (Case Study)Tests/Pods-Verve Group (Case Study)Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Verve Group (Case Study)Tests/Pods-Verve Group (Case Study)Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0350781773FF9FC07A08031E21A1D7D5 /* Build configuration list for PBXNativeTarget "Pods-Verve Group (Case Study)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6526287FF61F8635736821A215E5A1D0 /* Debug */,
+				1CFF994AF239C05BCC6550D97799E458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E85D17F892D81D693C49922816FA4381 /* Build configuration list for PBXNativeTarget "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE3E6E83243B2CFF1AD783446AED44F /* Debug */,
+				AF1EDF561C667240C241CBC9E7FA3A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC465E021E7EDC2F20F3CEA20D64DFEE /* Build configuration list for PBXNativeTarget "Pods-Verve Group (Case Study)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE634C01E2C3CC2CB4ADF775AF83EC31 /* Debug */,
+				C6145564EB5A6543944760218E63A42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

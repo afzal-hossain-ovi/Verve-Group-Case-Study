@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058511C9C104C53D535547BC /* Pods_Verve_Group__Case_Study_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F84B2DA14C05202ADC19A8 /* Pods_Verve_Group__Case_Study_Tests.framework */; };
+		4BFFADFA28491DCA00E03B8E /* VerveGroupCaseStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFADF928491DCA00E03B8E /* VerveGroupCaseStudyApp.swift */; };
+		4BFFADFC28491DCA00E03B8E /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFADFB28491DCA00E03B8E /* ProjectListView.swift */; };
+		4BFFADFE28491DCC00E03B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFFADFD28491DCC00E03B8E /* Assets.xcassets */; };
+		4BFFAE0128491DCC00E03B8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFFAE0028491DCC00E03B8E /* Preview Assets.xcassets */; };
+		4BFFAE0328491DCC00E03B8E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE0228491DCC00E03B8E /* Persistence.swift */; };
+		4BFFAE0628491DCC00E03B8E /* Verve_Group__Case_Study_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE0428491DCC00E03B8E /* Verve_Group__Case_Study_.xcdatamodeld */; };
+		4BFFAE1028491DCC00E03B8E /* VerveGroupCaseStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE0F28491DCC00E03B8E /* VerveGroupCaseStudyTests.swift */; };
+		4BFFAE1A28491DCC00E03B8E /* VerveGroupCaseStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE1928491DCC00E03B8E /* VerveGroupCaseStudyUITests.swift */; };
+		4BFFAE1C28491DCC00E03B8E /* VerveGroupCaseStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE1B28491DCC00E03B8E /* VerveGroupCaseStudyUITestsLaunchTests.swift */; };
+		4BFFAE312849259C00E03B8E /* ProjectListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE302849259C00E03B8E /* ProjectListViewModel.swift */; };
+		4BFFAE33284925A700E03B8E /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE32284925A700E03B8E /* ProjectViewModel.swift */; };
+		4BFFAE352849262300E03B8E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE342849262300E03B8E /* Color.swift */; };
+		4BFFAE3728492A6000E03B8E /* ProjectCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE3628492A6000E03B8E /* ProjectCellView.swift */; };
+		4BFFAE3928492BBA00E03B8E /* AddProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE3828492BBA00E03B8E /* AddProjectView.swift */; };
+		4BFFAE3B2849309100E03B8E /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE3A2849309100E03B8E /* TaskViewModel.swift */; };
+		4BFFAE3D2849357E00E03B8E /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE3C2849357E00E03B8E /* TaskListView.swift */; };
+		4BFFAE3F2849363100E03B8E /* TaskCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE3E2849363100E03B8E /* TaskCellView.swift */; };
+		4BFFAE412849387A00E03B8E /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE402849387A00E03B8E /* AddTaskView.swift */; };
+		4BFFAE4328493EC000E03B8E /* TaskDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE4228493EC000E03B8E /* TaskDetailsView.swift */; };
+		4BFFAE45284943A000E03B8E /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE44284943A000E03B8E /* EditTaskView.swift */; };
+		4BFFAE4B28498B8E00E03B8E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BFFAE4A28498B8E00E03B8E /* Localizable.strings */; };
+		4BFFAE4E28498BF500E03B8E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE4D28498BF500E03B8E /* String+Extension.swift */; };
+		AA3C33186BAC67E42B306F38 /* Pods_Verve_Group__Case_Study_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF14BB0A01D2156811E7BB8D /* Pods_Verve_Group__Case_Study_.framework */; };
+		CA28344D92B457DFF3651C18 /* Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0DC16C8F9487C3A0AE5A3C /* Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BFFAE0C28491DCC00E03B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BFFADEE28491DCA00E03B8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BFFADF528491DCA00E03B8E;
+			remoteInfo = "Verve Group (Case Study)";
+		};
+		4BFFAE1628491DCC00E03B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BFFADEE28491DCA00E03B8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BFFADF528491DCA00E03B8E;
+			remoteInfo = "Verve Group (Case Study)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182069433415C2F1DF4F9A31 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.release.xcconfig"; path = "Target Support Files/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		4BFFADF628491DCA00E03B8E /* Verve Group (Case Study).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Verve Group (Case Study).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFFADF928491DCA00E03B8E /* VerveGroupCaseStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerveGroupCaseStudyApp.swift; sourceTree = "<group>"; };
+		4BFFADFB28491DCA00E03B8E /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
+		4BFFADFD28491DCC00E03B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BFFAE0028491DCC00E03B8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BFFAE0228491DCC00E03B8E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4BFFAE0528491DCC00E03B8E /* Verve_Group__Case_Study_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Verve_Group__Case_Study_.xcdatamodel; sourceTree = "<group>"; };
+		4BFFAE0B28491DCC00E03B8E /* Verve Group (Case Study)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Verve Group (Case Study)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFFAE0F28491DCC00E03B8E /* VerveGroupCaseStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerveGroupCaseStudyTests.swift; sourceTree = "<group>"; };
+		4BFFAE1528491DCC00E03B8E /* Verve Group (Case Study)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Verve Group (Case Study)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFFAE1928491DCC00E03B8E /* VerveGroupCaseStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerveGroupCaseStudyUITests.swift; sourceTree = "<group>"; };
+		4BFFAE1B28491DCC00E03B8E /* VerveGroupCaseStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerveGroupCaseStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BFFAE302849259C00E03B8E /* ProjectListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListViewModel.swift; sourceTree = "<group>"; };
+		4BFFAE32284925A700E03B8E /* ProjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewModel.swift; sourceTree = "<group>"; };
+		4BFFAE342849262300E03B8E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		4BFFAE3628492A6000E03B8E /* ProjectCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCellView.swift; sourceTree = "<group>"; };
+		4BFFAE3828492BBA00E03B8E /* AddProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProjectView.swift; sourceTree = "<group>"; };
+		4BFFAE3A2849309100E03B8E /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		4BFFAE3C2849357E00E03B8E /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		4BFFAE3E2849363100E03B8E /* TaskCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellView.swift; sourceTree = "<group>"; };
+		4BFFAE402849387A00E03B8E /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		4BFFAE4228493EC000E03B8E /* TaskDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsView.swift; sourceTree = "<group>"; };
+		4BFFAE44284943A000E03B8E /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		4BFFAE4A28498B8E00E03B8E /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		4BFFAE4D28498BF500E03B8E /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		9325DEC93439E8CC38ED5BC4 /* Pods-Verve Group (Case Study)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verve Group (Case Study)Tests.debug.xcconfig"; path = "Target Support Files/Pods-Verve Group (Case Study)Tests/Pods-Verve Group (Case Study)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		98E4E2E0DF007D2C22089CF5 /* Pods-Verve Group (Case Study)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verve Group (Case Study)Tests.release.xcconfig"; path = "Target Support Files/Pods-Verve Group (Case Study)Tests/Pods-Verve Group (Case Study)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AB0DC16C8F9487C3A0AE5A3C /* Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23AA7E55F78FF63DE7681C3 /* Pods-Verve Group (Case Study).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verve Group (Case Study).debug.xcconfig"; path = "Target Support Files/Pods-Verve Group (Case Study)/Pods-Verve Group (Case Study).debug.xcconfig"; sourceTree = "<group>"; };
+		E4265A16F9D32C6F04609393 /* Pods-Verve Group (Case Study).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verve Group (Case Study).release.xcconfig"; path = "Target Support Files/Pods-Verve Group (Case Study)/Pods-Verve Group (Case Study).release.xcconfig"; sourceTree = "<group>"; };
+		E4F84B2DA14C05202ADC19A8 /* Pods_Verve_Group__Case_Study_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verve_Group__Case_Study_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED07686E8C31CCC86C7ED3D /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.debug.xcconfig"; path = "Target Support Files/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF14BB0A01D2156811E7BB8D /* Pods_Verve_Group__Case_Study_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verve_Group__Case_Study_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BFFADF328491DCA00E03B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3C33186BAC67E42B306F38 /* Pods_Verve_Group__Case_Study_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BFFAE0828491DCC00E03B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058511C9C104C53D535547BC /* Pods_Verve_Group__Case_Study_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BFFAE1228491DCC00E03B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA28344D92B457DFF3651C18 /* Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		249E114AB9EC6FEEE3C27021 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D23AA7E55F78FF63DE7681C3 /* Pods-Verve Group (Case Study).debug.xcconfig */,
+				E4265A16F9D32C6F04609393 /* Pods-Verve Group (Case Study).release.xcconfig */,
+				FED07686E8C31CCC86C7ED3D /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.debug.xcconfig */,
+				182069433415C2F1DF4F9A31 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.release.xcconfig */,
+				9325DEC93439E8CC38ED5BC4 /* Pods-Verve Group (Case Study)Tests.debug.xcconfig */,
+				98E4E2E0DF007D2C22089CF5 /* Pods-Verve Group (Case Study)Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3D1D9960943387CE64AE3F32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF14BB0A01D2156811E7BB8D /* Pods_Verve_Group__Case_Study_.framework */,
+				AB0DC16C8F9487C3A0AE5A3C /* Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests.framework */,
+				E4F84B2DA14C05202ADC19A8 /* Pods_Verve_Group__Case_Study_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BFFADED28491DCA00E03B8E = {
+			isa = PBXGroup;
+			children = (
+				4BFFADF828491DCA00E03B8E /* Verve Group (Case Study) */,
+				4BFFAE0E28491DCC00E03B8E /* Verve Group (Case Study)Tests */,
+				4BFFAE1828491DCC00E03B8E /* Verve Group (Case Study)UITests */,
+				4BFFADF728491DCA00E03B8E /* Products */,
+				249E114AB9EC6FEEE3C27021 /* Pods */,
+				3D1D9960943387CE64AE3F32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BFFADF728491DCA00E03B8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFADF628491DCA00E03B8E /* Verve Group (Case Study).app */,
+				4BFFAE0B28491DCC00E03B8E /* Verve Group (Case Study)Tests.xctest */,
+				4BFFAE1528491DCC00E03B8E /* Verve Group (Case Study)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BFFADF828491DCA00E03B8E /* Verve Group (Case Study) */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFAE2928491F9100E03B8E /* Application */,
+				4BFFAE4C28498BD600E03B8E /* Extensions */,
+				4BFFAE2A28491FA100E03B8E /* Database */,
+				4BFFAE2B2849210B00E03B8E /* Model */,
+				4BFFAE2D2849211A00E03B8E /* ViewModel */,
+				4BFFAE2C2849211400E03B8E /* View */,
+				4BFFAE4928498B4D00E03B8E /* Resources */,
+			);
+			path = "Verve Group (Case Study)";
+			sourceTree = "<group>";
+		};
+		4BFFADFF28491DCC00E03B8E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFAE0028491DCC00E03B8E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BFFAE0E28491DCC00E03B8E /* Verve Group (Case Study)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFAE0F28491DCC00E03B8E /* VerveGroupCaseStudyTests.swift */,
+			);
+			path = "Verve Group (Case Study)Tests";
+			sourceTree = "<group>";
+		};
+		4BFFAE1828491DCC00E03B8E /* Verve Group (Case Study)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFAE1928491DCC00E03B8E /* VerveGroupCaseStudyUITests.swift */,
+				4BFFAE1B28491DCC00E03B8E /* VerveGroupCaseStudyUITestsLaunchTests.swift */,
+			);
+			path = "Verve Group (Case Study)UITests";
+			sourceTree = "<group>";
+		};
+		4BFFAE2928491F9100E03B8E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFADF928491DCA00E03B8E /* VerveGroupCaseStudyApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4BFFAE2A28491FA100E03B8E /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFAE0228491DCC00E03B8E /* Persistence.swift */,
+				4BFFAE0428491DCC00E03B8E /* Verve_Group__Case_Study_.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		4BFFAE2B2849210B00E03B8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFAE342849262300E03B8E /* Color.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BFFAE2C2849211400E03B8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFAE2E2849215000E03B8E /* ProjectView */,
+				4BFFAE2F2849215800E03B8E /* TaskView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4BFFAE2D2849211A00E03B8E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFAE302849259C00E03B8E /* ProjectListViewModel.swift */,
+				4BFFAE32284925A700E03B8E /* ProjectViewModel.swift */,
+				4BFFAE3A2849309100E03B8E /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4BFFAE2E2849215000E03B8E /* ProjectView */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFADFB28491DCA00E03B8E /* ProjectListView.swift */,
+				4BFFAE3628492A6000E03B8E /* ProjectCellView.swift */,
+				4BFFAE3828492BBA00E03B8E /* AddProjectView.swift */,
+			);
+			name = ProjectView;
+			sourceTree = "<group>";
+		};
+		4BFFAE2F2849215800E03B8E /* TaskView */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFAE3C2849357E00E03B8E /* TaskListView.swift */,
+				4BFFAE3E2849363100E03B8E /* TaskCellView.swift */,
+				4BFFAE402849387A00E03B8E /* AddTaskView.swift */,
+				4BFFAE4228493EC000E03B8E /* TaskDetailsView.swift */,
+				4BFFAE44284943A000E03B8E /* EditTaskView.swift */,
+			);
+			name = TaskView;
+			sourceTree = "<group>";
+		};
+		4BFFAE4928498B4D00E03B8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFADFD28491DCC00E03B8E /* Assets.xcassets */,
+				4BFFADFF28491DCC00E03B8E /* Preview Content */,
+				4BFFAE4A28498B8E00E03B8E /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4BFFAE4C28498BD600E03B8E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFAE4D28498BF500E03B8E /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BFFADF528491DCA00E03B8E /* Verve Group (Case Study) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BFFAE1F28491DCC00E03B8E /* Build configuration list for PBXNativeTarget "Verve Group (Case Study)" */;
+			buildPhases = (
+				453EC31320BA00C972B4930D /* [CP] Check Pods Manifest.lock */,
+				4BFFADF228491DCA00E03B8E /* Sources */,
+				4BFFADF328491DCA00E03B8E /* Frameworks */,
+				4BFFADF428491DCA00E03B8E /* Resources */,
+				4BFFAE2828491ED500E03B8E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Verve Group (Case Study)";
+			productName = "Verve Group (Case Study)";
+			productReference = 4BFFADF628491DCA00E03B8E /* Verve Group (Case Study).app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BFFAE0A28491DCC00E03B8E /* Verve Group (Case Study)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BFFAE2228491DCC00E03B8E /* Build configuration list for PBXNativeTarget "Verve Group (Case Study)Tests" */;
+			buildPhases = (
+				2DFB40A2024B63865370AE47 /* [CP] Check Pods Manifest.lock */,
+				4BFFAE0728491DCC00E03B8E /* Sources */,
+				4BFFAE0828491DCC00E03B8E /* Frameworks */,
+				4BFFAE0928491DCC00E03B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BFFAE0D28491DCC00E03B8E /* PBXTargetDependency */,
+			);
+			name = "Verve Group (Case Study)Tests";
+			productName = "Verve Group (Case Study)Tests";
+			productReference = 4BFFAE0B28491DCC00E03B8E /* Verve Group (Case Study)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BFFAE1428491DCC00E03B8E /* Verve Group (Case Study)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BFFAE2528491DCC00E03B8E /* Build configuration list for PBXNativeTarget "Verve Group (Case Study)UITests" */;
+			buildPhases = (
+				009DFBCF24F1A3CC63DE2530 /* [CP] Check Pods Manifest.lock */,
+				4BFFAE1128491DCC00E03B8E /* Sources */,
+				4BFFAE1228491DCC00E03B8E /* Frameworks */,
+				4BFFAE1328491DCC00E03B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BFFAE1728491DCC00E03B8E /* PBXTargetDependency */,
+			);
+			name = "Verve Group (Case Study)UITests";
+			productName = "Verve Group (Case Study)UITests";
+			productReference = 4BFFAE1528491DCC00E03B8E /* Verve Group (Case Study)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BFFADEE28491DCA00E03B8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4BFFADF528491DCA00E03B8E = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					4BFFAE0A28491DCC00E03B8E = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 4BFFADF528491DCA00E03B8E;
+					};
+					4BFFAE1428491DCC00E03B8E = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 4BFFADF528491DCA00E03B8E;
+					};
+				};
+			};
+			buildConfigurationList = 4BFFADF128491DCA00E03B8E /* Build configuration list for PBXProject "Verve Group (Case Study)" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BFFADED28491DCA00E03B8E;
+			productRefGroup = 4BFFADF728491DCA00E03B8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BFFADF528491DCA00E03B8E /* Verve Group (Case Study) */,
+				4BFFAE0A28491DCC00E03B8E /* Verve Group (Case Study)Tests */,
+				4BFFAE1428491DCC00E03B8E /* Verve Group (Case Study)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BFFADF428491DCA00E03B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFFAE0128491DCC00E03B8E /* Preview Assets.xcassets in Resources */,
+				4BFFAE4B28498B8E00E03B8E /* Localizable.strings in Resources */,
+				4BFFADFE28491DCC00E03B8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BFFAE0928491DCC00E03B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BFFAE1328491DCC00E03B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		009DFBCF24F1A3CC63DE2530 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DFB40A2024B63865370AE47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Verve Group (Case Study)Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		453EC31320BA00C972B4930D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Verve Group (Case Study)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BFFAE2828491ED500E03B8E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BFFADF228491DCA00E03B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFFAE4E28498BF500E03B8E /* String+Extension.swift in Sources */,
+				4BFFAE0328491DCC00E03B8E /* Persistence.swift in Sources */,
+				4BFFADFC28491DCA00E03B8E /* ProjectListView.swift in Sources */,
+				4BFFAE3728492A6000E03B8E /* ProjectCellView.swift in Sources */,
+				4BFFAE3D2849357E00E03B8E /* TaskListView.swift in Sources */,
+				4BFFAE3B2849309100E03B8E /* TaskViewModel.swift in Sources */,
+				4BFFAE3928492BBA00E03B8E /* AddProjectView.swift in Sources */,
+				4BFFAE352849262300E03B8E /* Color.swift in Sources */,
+				4BFFAE0628491DCC00E03B8E /* Verve_Group__Case_Study_.xcdatamodeld in Sources */,
+				4BFFAE4328493EC000E03B8E /* TaskDetailsView.swift in Sources */,
+				4BFFAE45284943A000E03B8E /* EditTaskView.swift in Sources */,
+				4BFFADFA28491DCA00E03B8E /* VerveGroupCaseStudyApp.swift in Sources */,
+				4BFFAE33284925A700E03B8E /* ProjectViewModel.swift in Sources */,
+				4BFFAE312849259C00E03B8E /* ProjectListViewModel.swift in Sources */,
+				4BFFAE3F2849363100E03B8E /* TaskCellView.swift in Sources */,
+				4BFFAE412849387A00E03B8E /* AddTaskView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BFFAE0728491DCC00E03B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFFAE1028491DCC00E03B8E /* VerveGroupCaseStudyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BFFAE1128491DCC00E03B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFFAE1A28491DCC00E03B8E /* VerveGroupCaseStudyUITests.swift in Sources */,
+				4BFFAE1C28491DCC00E03B8E /* VerveGroupCaseStudyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BFFAE0D28491DCC00E03B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BFFADF528491DCA00E03B8E /* Verve Group (Case Study) */;
+			targetProxy = 4BFFAE0C28491DCC00E03B8E /* PBXContainerItemProxy */;
+		};
+		4BFFAE1728491DCC00E03B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BFFADF528491DCA00E03B8E /* Verve Group (Case Study) */;
+			targetProxy = 4BFFAE1628491DCC00E03B8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BFFAE1D28491DCC00E03B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BFFAE1E28491DCC00E03B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BFFAE2028491DCC00E03B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23AA7E55F78FF63DE7681C3 /* Pods-Verve Group (Case Study).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Verve Group (Case Study)/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "afzalhossain.Verve-Group--Case-Study-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4BFFAE2128491DCC00E03B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4265A16F9D32C6F04609393 /* Pods-Verve Group (Case Study).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Verve Group (Case Study)/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "afzalhossain.Verve-Group--Case-Study-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4BFFAE2328491DCC00E03B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9325DEC93439E8CC38ED5BC4 /* Pods-Verve Group (Case Study)Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "afzalhossain.Verve-Group--Case-Study-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Verve Group (Case Study).app/Verve Group (Case Study)";
+			};
+			name = Debug;
+		};
+		4BFFAE2428491DCC00E03B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E4E2E0DF007D2C22089CF5 /* Pods-Verve Group (Case Study)Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "afzalhossain.Verve-Group--Case-Study-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Verve Group (Case Study).app/Verve Group (Case Study)";
+			};
+			name = Release;
+		};
+		4BFFAE2628491DCC00E03B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED07686E8C31CCC86C7ED3D /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "afzalhossain.Verve-Group--Case-Study-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Verve Group (Case Study)";
+			};
+			name = Debug;
+		};
+		4BFFAE2728491DCC00E03B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182069433415C2F1DF4F9A31 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "afzalhossain.Verve-Group--Case-Study-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Verve Group (Case Study)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BFFADF128491DCA00E03B8E /* Build configuration list for PBXProject "Verve Group (Case Study)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BFFAE1D28491DCC00E03B8E /* Debug */,
+				4BFFAE1E28491DCC00E03B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BFFAE1F28491DCC00E03B8E /* Build configuration list for PBXNativeTarget "Verve Group (Case Study)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BFFAE2028491DCC00E03B8E /* Debug */,
+				4BFFAE2128491DCC00E03B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BFFAE2228491DCC00E03B8E /* Build configuration list for PBXNativeTarget "Verve Group (Case Study)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BFFAE2328491DCC00E03B8E /* Debug */,
+				4BFFAE2428491DCC00E03B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BFFAE2528491DCC00E03B8E /* Build configuration list for PBXNativeTarget "Verve Group (Case Study)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BFFAE2628491DCC00E03B8E /* Debug */,
+				4BFFAE2728491DCC00E03B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BFFAE0428491DCC00E03B8E /* Verve_Group__Case_Study_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BFFAE0528491DCC00E03B8E /* Verve_Group__Case_Study_.xcdatamodel */,
+			);
+			currentVersion = 4BFFAE0528491DCC00E03B8E /* Verve_Group__Case_Study_.xcdatamodel */;
+			path = Verve_Group__Case_Study_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BFFADEE28491DCA00E03B8E /* Project object */;
+}

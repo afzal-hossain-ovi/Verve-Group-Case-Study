@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests : NSObject
+@end
+@implementation PodsDummy_Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests
+@end

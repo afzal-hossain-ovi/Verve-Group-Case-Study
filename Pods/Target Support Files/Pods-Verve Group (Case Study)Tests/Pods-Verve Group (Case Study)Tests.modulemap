@@ -1,0 +1,6 @@
+framework module Pods_Verve_Group__Case_Study_Tests {
+  umbrella header "Pods-Verve Group (Case Study)Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

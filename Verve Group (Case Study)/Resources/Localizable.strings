@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  Verve Group (Case Study)
+
+  Created by Afzal Hossain on 02.06.22.
+  
+*/
+
+"dashboard_title" = "Project";
+"project_empty_message" = "Add projects";
+"name" = "Name";
+"project_name" = "Project Name";
+"project_description" = "Description";
+"add_project" = "Add Project";
+"project_color" = "Color";
+"cell_color" = "Cell Color";
+"error_title" = "Error";
+"project_error_message" = "Project requires a name.";
+"submit_button_title" = "Ok";
+
+"title" = "Title";
+"task_empty_message" = "Add tasks in your project";
+"task_title" = "Task Title";
+"task_description" = "Description";
+"task_select_date" = "Select Date";
+"task_create_date" = "Creation Date";
+"task_comments" = "Comments";
+"task_completed" = "Completed";
+"task_review" = "In Review";
+"add_task" = "Add Task";
+"task_error_message" = "Task requires title and description";
+"edit_task" = "Edit Task";
+
+
