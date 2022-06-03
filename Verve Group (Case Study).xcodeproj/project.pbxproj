@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		058511C9C104C53D535547BC /* Pods_Verve_Group__Case_Study_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F84B2DA14C05202ADC19A8 /* Pods_Verve_Group__Case_Study_Tests.framework */; };
 		4BFFADFA28491DCA00E03B8E /* VerveGroupCaseStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFADF928491DCA00E03B8E /* VerveGroupCaseStudyApp.swift */; };
-		4BFFADFC28491DCA00E03B8E /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFADFB28491DCA00E03B8E /* ProjectListView.swift */; };
 		4BFFADFE28491DCC00E03B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFFADFD28491DCC00E03B8E /* Assets.xcassets */; };
 		4BFFAE0128491DCC00E03B8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFFAE0028491DCC00E03B8E /* Preview Assets.xcassets */; };
 		4BFFAE0328491DCC00E03B8E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE0228491DCC00E03B8E /* Persistence.swift */; };
@@ -20,18 +19,19 @@
 		4BFFAE312849259C00E03B8E /* ProjectListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE302849259C00E03B8E /* ProjectListViewModel.swift */; };
 		4BFFAE33284925A700E03B8E /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE32284925A700E03B8E /* ProjectViewModel.swift */; };
 		4BFFAE352849262300E03B8E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE342849262300E03B8E /* Color.swift */; };
-		4BFFAE3728492A6000E03B8E /* ProjectCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE3628492A6000E03B8E /* ProjectCellView.swift */; };
-		4BFFAE3928492BBA00E03B8E /* AddProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE3828492BBA00E03B8E /* AddProjectView.swift */; };
 		4BFFAE3B2849309100E03B8E /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE3A2849309100E03B8E /* TaskViewModel.swift */; };
-		4BFFAE3D2849357E00E03B8E /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE3C2849357E00E03B8E /* TaskListView.swift */; };
-		4BFFAE3F2849363100E03B8E /* TaskCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE3E2849363100E03B8E /* TaskCellView.swift */; };
-		4BFFAE412849387A00E03B8E /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE402849387A00E03B8E /* AddTaskView.swift */; };
-		4BFFAE4328493EC000E03B8E /* TaskDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE4228493EC000E03B8E /* TaskDetailsView.swift */; };
-		4BFFAE45284943A000E03B8E /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE44284943A000E03B8E /* EditTaskView.swift */; };
 		4BFFAE4B28498B8E00E03B8E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BFFAE4A28498B8E00E03B8E /* Localizable.strings */; };
 		4BFFAE4E28498BF500E03B8E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFAE4D28498BF500E03B8E /* String+Extension.swift */; };
 		AA3C33186BAC67E42B306F38 /* Pods_Verve_Group__Case_Study_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF14BB0A01D2156811E7BB8D /* Pods_Verve_Group__Case_Study_.framework */; };
 		CA28344D92B457DFF3651C18 /* Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0DC16C8F9487C3A0AE5A3C /* Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests.framework */; };
+		DD8335A42849F9B000F35ABE /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8335A12849F9B000F35ABE /* ProjectListView.swift */; };
+		DD8335A52849F9B000F35ABE /* AddProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8335A22849F9B000F35ABE /* AddProjectView.swift */; };
+		DD8335A62849F9B000F35ABE /* ProjectCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8335A32849F9B000F35ABE /* ProjectCellView.swift */; };
+		DD8335AC2849F9C000F35ABE /* TaskCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8335A72849F9C000F35ABE /* TaskCellView.swift */; };
+		DD8335AD2849F9C000F35ABE /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8335A82849F9C000F35ABE /* AddTaskView.swift */; };
+		DD8335AE2849F9C000F35ABE /* TaskDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8335A92849F9C000F35ABE /* TaskDetailsView.swift */; };
+		DD8335AF2849F9C000F35ABE /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8335AA2849F9C000F35ABE /* EditTaskView.swift */; };
+		DD8335B02849F9C000F35ABE /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8335AB2849F9C000F35ABE /* TaskListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,6 @@
 		182069433415C2F1DF4F9A31 /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.release.xcconfig"; path = "Target Support Files/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.release.xcconfig"; sourceTree = "<group>"; };
 		4BFFADF628491DCA00E03B8E /* Verve Group (Case Study).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Verve Group (Case Study).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFFADF928491DCA00E03B8E /* VerveGroupCaseStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerveGroupCaseStudyApp.swift; sourceTree = "<group>"; };
-		4BFFADFB28491DCA00E03B8E /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
 		4BFFADFD28491DCC00E03B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BFFAE0028491DCC00E03B8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4BFFAE0228491DCC00E03B8E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -68,20 +67,21 @@
 		4BFFAE302849259C00E03B8E /* ProjectListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListViewModel.swift; sourceTree = "<group>"; };
 		4BFFAE32284925A700E03B8E /* ProjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewModel.swift; sourceTree = "<group>"; };
 		4BFFAE342849262300E03B8E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		4BFFAE3628492A6000E03B8E /* ProjectCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCellView.swift; sourceTree = "<group>"; };
-		4BFFAE3828492BBA00E03B8E /* AddProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProjectView.swift; sourceTree = "<group>"; };
 		4BFFAE3A2849309100E03B8E /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
-		4BFFAE3C2849357E00E03B8E /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
-		4BFFAE3E2849363100E03B8E /* TaskCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellView.swift; sourceTree = "<group>"; };
-		4BFFAE402849387A00E03B8E /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
-		4BFFAE4228493EC000E03B8E /* TaskDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsView.swift; sourceTree = "<group>"; };
-		4BFFAE44284943A000E03B8E /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
 		4BFFAE4A28498B8E00E03B8E /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		4BFFAE4D28498BF500E03B8E /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		9325DEC93439E8CC38ED5BC4 /* Pods-Verve Group (Case Study)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verve Group (Case Study)Tests.debug.xcconfig"; path = "Target Support Files/Pods-Verve Group (Case Study)Tests/Pods-Verve Group (Case Study)Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		98E4E2E0DF007D2C22089CF5 /* Pods-Verve Group (Case Study)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verve Group (Case Study)Tests.release.xcconfig"; path = "Target Support Files/Pods-Verve Group (Case Study)Tests/Pods-Verve Group (Case Study)Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AB0DC16C8F9487C3A0AE5A3C /* Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verve_Group__Case_Study__Verve_Group__Case_Study_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23AA7E55F78FF63DE7681C3 /* Pods-Verve Group (Case Study).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verve Group (Case Study).debug.xcconfig"; path = "Target Support Files/Pods-Verve Group (Case Study)/Pods-Verve Group (Case Study).debug.xcconfig"; sourceTree = "<group>"; };
+		DD8335A12849F9B000F35ABE /* ProjectListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
+		DD8335A22849F9B000F35ABE /* AddProjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProjectView.swift; sourceTree = "<group>"; };
+		DD8335A32849F9B000F35ABE /* ProjectCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectCellView.swift; sourceTree = "<group>"; };
+		DD8335A72849F9C000F35ABE /* TaskCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCellView.swift; sourceTree = "<group>"; };
+		DD8335A82849F9C000F35ABE /* AddTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		DD8335A92849F9C000F35ABE /* TaskDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailsView.swift; sourceTree = "<group>"; };
+		DD8335AA2849F9C000F35ABE /* EditTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		DD8335AB2849F9C000F35ABE /* TaskListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		E4265A16F9D32C6F04609393 /* Pods-Verve Group (Case Study).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verve Group (Case Study).release.xcconfig"; path = "Target Support Files/Pods-Verve Group (Case Study)/Pods-Verve Group (Case Study).release.xcconfig"; sourceTree = "<group>"; };
 		E4F84B2DA14C05202ADC19A8 /* Pods_Verve_Group__Case_Study_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verve_Group__Case_Study_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED07686E8C31CCC86C7ED3D /* Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.debug.xcconfig"; path = "Target Support Files/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests/Pods-Verve Group (Case Study)-Verve Group (Case Study)UITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -169,8 +169,8 @@
 				4BFFAE2A28491FA100E03B8E /* Database */,
 				4BFFAE2B2849210B00E03B8E /* Model */,
 				4BFFAE2D2849211A00E03B8E /* ViewModel */,
-				4BFFAE2C2849211400E03B8E /* View */,
 				4BFFAE4928498B4D00E03B8E /* Resources */,
+				DD83358E2849F86500F35ABE /* View */,
 			);
 			path = "Verve Group (Case Study)";
 			sourceTree = "<group>";
@@ -225,15 +225,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		4BFFAE2C2849211400E03B8E /* View */ = {
-			isa = PBXGroup;
-			children = (
-				4BFFAE2E2849215000E03B8E /* ProjectView */,
-				4BFFAE2F2849215800E03B8E /* TaskView */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
 		4BFFAE2D2849211A00E03B8E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,28 +233,6 @@
 				4BFFAE3A2849309100E03B8E /* TaskViewModel.swift */,
 			);
 			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		4BFFAE2E2849215000E03B8E /* ProjectView */ = {
-			isa = PBXGroup;
-			children = (
-				4BFFADFB28491DCA00E03B8E /* ProjectListView.swift */,
-				4BFFAE3628492A6000E03B8E /* ProjectCellView.swift */,
-				4BFFAE3828492BBA00E03B8E /* AddProjectView.swift */,
-			);
-			name = ProjectView;
-			sourceTree = "<group>";
-		};
-		4BFFAE2F2849215800E03B8E /* TaskView */ = {
-			isa = PBXGroup;
-			children = (
-				4BFFAE3C2849357E00E03B8E /* TaskListView.swift */,
-				4BFFAE3E2849363100E03B8E /* TaskCellView.swift */,
-				4BFFAE402849387A00E03B8E /* AddTaskView.swift */,
-				4BFFAE4228493EC000E03B8E /* TaskDetailsView.swift */,
-				4BFFAE44284943A000E03B8E /* EditTaskView.swift */,
-			);
-			name = TaskView;
 			sourceTree = "<group>";
 		};
 		4BFFAE4928498B4D00E03B8E /* Resources */ = {
@@ -282,6 +251,37 @@
 				4BFFAE4D28498BF500E03B8E /* String+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DD83358E2849F86500F35ABE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD83358F2849F86D00F35ABE /* ProjectView */,
+				DD8335902849F87500F35ABE /* TaskView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD83358F2849F86D00F35ABE /* ProjectView */ = {
+			isa = PBXGroup;
+			children = (
+				DD8335A12849F9B000F35ABE /* ProjectListView.swift */,
+				DD8335A32849F9B000F35ABE /* ProjectCellView.swift */,
+				DD8335A22849F9B000F35ABE /* AddProjectView.swift */,
+			);
+			path = ProjectView;
+			sourceTree = "<group>";
+		};
+		DD8335902849F87500F35ABE /* TaskView */ = {
+			isa = PBXGroup;
+			children = (
+				DD8335AB2849F9C000F35ABE /* TaskListView.swift */,
+				DD8335A72849F9C000F35ABE /* TaskCellView.swift */,
+				DD8335A82849F9C000F35ABE /* AddTaskView.swift */,
+				DD8335A92849F9C000F35ABE /* TaskDetailsView.swift */,
+				DD8335AA2849F9C000F35ABE /* EditTaskView.swift */,
+			);
+			path = TaskView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,22 +505,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8335A52849F9B000F35ABE /* AddProjectView.swift in Sources */,
 				4BFFAE4E28498BF500E03B8E /* String+Extension.swift in Sources */,
+				DD8335A62849F9B000F35ABE /* ProjectCellView.swift in Sources */,
 				4BFFAE0328491DCC00E03B8E /* Persistence.swift in Sources */,
-				4BFFADFC28491DCA00E03B8E /* ProjectListView.swift in Sources */,
-				4BFFAE3728492A6000E03B8E /* ProjectCellView.swift in Sources */,
-				4BFFAE3D2849357E00E03B8E /* TaskListView.swift in Sources */,
+				DD8335A42849F9B000F35ABE /* ProjectListView.swift in Sources */,
 				4BFFAE3B2849309100E03B8E /* TaskViewModel.swift in Sources */,
-				4BFFAE3928492BBA00E03B8E /* AddProjectView.swift in Sources */,
 				4BFFAE352849262300E03B8E /* Color.swift in Sources */,
+				DD8335B02849F9C000F35ABE /* TaskListView.swift in Sources */,
 				4BFFAE0628491DCC00E03B8E /* Verve_Group__Case_Study_.xcdatamodeld in Sources */,
-				4BFFAE4328493EC000E03B8E /* TaskDetailsView.swift in Sources */,
-				4BFFAE45284943A000E03B8E /* EditTaskView.swift in Sources */,
+				DD8335AE2849F9C000F35ABE /* TaskDetailsView.swift in Sources */,
+				DD8335AF2849F9C000F35ABE /* EditTaskView.swift in Sources */,
 				4BFFADFA28491DCA00E03B8E /* VerveGroupCaseStudyApp.swift in Sources */,
 				4BFFAE33284925A700E03B8E /* ProjectViewModel.swift in Sources */,
 				4BFFAE312849259C00E03B8E /* ProjectListViewModel.swift in Sources */,
-				4BFFAE3F2849363100E03B8E /* TaskCellView.swift in Sources */,
-				4BFFAE412849387A00E03B8E /* AddTaskView.swift in Sources */,
+				DD8335AC2849F9C000F35ABE /* TaskCellView.swift in Sources */,
+				DD8335AD2849F9C000F35ABE /* AddTaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
